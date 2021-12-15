@@ -1,6 +1,7 @@
 {
     "name": "clearswitch/http-client",
     "description": "http client",
+    "type": "library",
     "license": "MIT",
     "keywords": [
         "http",
