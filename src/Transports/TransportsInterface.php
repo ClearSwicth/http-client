@@ -18,13 +18,13 @@ interface TransportsInterface
      * @return mixed
      * @author clearSwitch
      */
-   public function send(Request $request);
+    public function send(Request $request);
 
     /**
      * 批量访问
      * @return mixed
      * @author clearSwitch
      */
-   public function batchSend($request);
-   // public function batchSend(BatchRequest $request);
+    public function batchSend($request);
+    // public function batchSend(BatchRequest $request);
 }
