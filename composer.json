@@ -1,0 +1,22 @@
+{
+    "name": "clearswitch/http-client",
+    "description": "http client",
+    "keywords": [
+        "http",
+        "client"
+    ],
+    "require": {
+        "clearswitch/dataconversion":"1.0.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "ClearSwitch\\Http\\": "src"
+        }
+    },
+    "author": {
+        "name": "clearSwitch"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
