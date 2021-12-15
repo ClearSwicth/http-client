@@ -34,7 +34,8 @@ $response->getHeaders(); //获取解析后的头部
 $response->getStatusCode(); //获取状态码
 $response->getContentType(); //获取消息体类型
 $response->getHttpVersion(); //获取HTTP版本
-## 批量请求
+```
+## 设置请求参数
 use ClearSwitch\Http\BatchRequest;
 
 $requests = [];
