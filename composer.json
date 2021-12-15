@@ -1,6 +1,7 @@
 {
     "name": "clearswitch/http-client",
     "description": "http client",
+    "license": "MIT",
     "keywords": [
         "http",
         "client"
