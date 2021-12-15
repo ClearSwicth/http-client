@@ -1,3 +1,4 @@
+```php
 use ClearSwitch\Http\Request;
 /**
  * 构建器配置 (可选)
@@ -36,6 +37,7 @@ $response->getContentType(); //获取消息体类型
 $response->getHttpVersion(); //获取HTTP版本
 ```
 ## 设置请求参数
+```php
 use ClearSwitch\Http\BatchRequest;
 
 $requests = [];
